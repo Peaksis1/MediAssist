@@ -1,0 +1,26 @@
+<head>
+    <link rel="stylesheet" href="../styles/home.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../scripts/contact-us.js"></script>
+</head>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-slate-100">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+        <p class="text-slate-600 mb-6">Need help or have feedback? We’d love to hear from you.</p>
+        <form class="grid gap-4 max-w-xl mx-auto text-left" onsubmit="handleSubmit(event)">
+            <input type="text" placeholder="Your Name" name="name"
+                class="border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-green-500"
+                required />
+            <input type="email" placeholder="Your Email" name="email"
+                class="border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-green-500"
+                required />
+            <textarea placeholder="Your Message" rows="4" name="message"
+                class="border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+            <button type="submit"
+                class="w-full py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 font-medium">Send
+                Message</button>
+        </form>
+    </div>
+</section>

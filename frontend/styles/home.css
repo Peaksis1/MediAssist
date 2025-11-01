@@ -1,0 +1,8 @@
+.hero-bg {
+    background: linear-gradient(180deg, rgba(16, 185, 129, 0.06), rgba(245, 249, 250, 0));
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(6px);
+}
